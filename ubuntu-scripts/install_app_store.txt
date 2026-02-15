@@ -1,0 +1,28 @@
+#If App Store or Ubuntu Software don't open
+
+sudo apt update && sudo apt upgrade -y
+
+sudo apt autoremove && sudo apt clean -y
+
+sudo snap refresh
+
+sudo reboot
+
+#If not work
+
+sudo snap purge snap-store
+
+sudo snap remove snap-store
+
+sudo snap install snap-store
+
+
+#If you want install gnome-software app
+
+sudo apt purge gnome-software
+
+sudo apt install gnome-software -y
+
+sudo apt install gnome-software-plugin-snap -y
+
+sudo apt install gnome-software-plugin-flatpack -y
