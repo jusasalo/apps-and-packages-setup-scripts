@@ -72,8 +72,10 @@ winget install TorProject.TorBrowser
 winget install Microsoft.VisualStudioCode --scope machine
 
 # VS Code fork con AI
+
 winget install --id Anysphere.Cursor -e
 
+winget install Google.Antigravity
 
 # Visual Studio Community + workloads .NET
 winget install Microsoft.VisualStudio.2022.Community `
